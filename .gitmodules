@@ -1,0 +1,15 @@
+[submodule "lib/lua/lua"]
+	path = lib/lua/lua
+	url = ../lua.git
+[submodule "lib/lualib/luasocket"]
+	path = lib/lualib/luasocket
+	url = https://github.com/diegonehab/luasocket
+[submodule "lib/lualib/cjson"]
+	path = lib/lualib/cjson
+	url = https://github.com/mpx/lua-cjson.git
+[submodule "lib/lualib/lemock"]
+	path = lib/lualib/lemock
+	url = https://github.com/LuaDist/lemock.git
+[submodule "lib/lualib/luaunit"]
+	path = lib/lualib/luaunit
+	url = https://github.com/bluebird75/luaunit.git
