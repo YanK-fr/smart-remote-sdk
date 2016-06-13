@@ -17,6 +17,10 @@ Then, install a local copy of lua and its libraries:
     $ make -C lib/lua install
     $ make -C lib/lualib install
 
+> If you're running Linux and get compilation errors, make sure you have
+installed the readline development package (which is probably named
+`libreadline-dev` or `readline-devel`).
+
 This will install lua in `$HOME/local/lua`, you should make sure that
 `$HOME/local/lua/bin` is in your PATH or use the full path to lua each time
 you run it.
