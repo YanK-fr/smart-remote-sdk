@@ -17,6 +17,10 @@ Then, install a local copy of lua and its libraries:
     $ make -C lib/lua install
     $ make -C lib/lualib install
 
+> You can use your own lua installation if you like, the SDK uses Lua
+version 5.3.  However using the procedure in this file is a great way to make
+sure your environment is set up exactly the same way as ours.
+
 > If you're running Linux and get compilation errors, make sure you have
 installed the readline development package (which is probably named
 `libreadline-dev` or `readline-devel`).
